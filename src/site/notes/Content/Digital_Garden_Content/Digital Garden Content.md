@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"created":"2025-04-08T18:19:04.978+05:30","updated":"2025-04-08T20:21:03.598+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2025-04-08T20:29:54.779+05:30"}
 ---
 
 #DigitalGarden
@@ -12,8 +12,10 @@ You can contact me through the following mediums:
 
 - **Portfolio** - [ethan-portfolio](https://ethan-perera-portfolio.netlify.app/#gallery)
 - **Github Link** - [link](https://github.com/ethanchristoff)
-
 ## Links to each Sub Folder
+
+>[!Warning]
+>When referring to the content in this repository ensure that it adheres to the standard curriculum you are learning under, if it does not seem to make sense to you please negate considering the contents here
 
 ### General
 [[Content/Digital_Garden_Content/Data Engineering Content/Machine Learning Operations\|Machine Learning Operations]] - Covers MLOPS, etc

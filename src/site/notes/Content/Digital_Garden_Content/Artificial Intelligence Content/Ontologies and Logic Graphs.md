@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/ontologies-and-logic-graphs/","created":"2025-04-08T20:07:32.139+05:30","updated":"2025-04-08T20:07:54.675+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/ontologies-and-logic-graphs/","updated":"2025-04-08T20:07:54.675+05:30"}
 ---
 
 #DigitalGarden 

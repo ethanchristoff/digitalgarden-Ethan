@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/kafka-confluent/","created":"2025-03-12T22:29:43.231+05:30","updated":"2025-04-08T18:26:45.466+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/kafka-confluent/","updated":"2025-04-08T18:26:45.466+05:30"}
 ---
 
 #fundamentals 

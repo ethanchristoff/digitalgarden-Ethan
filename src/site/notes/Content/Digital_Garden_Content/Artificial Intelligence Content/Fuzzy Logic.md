@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/fuzzy-logic/","created":"2025-04-08T20:06:19.434+05:30","updated":"2025-04-08T20:06:50.272+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/fuzzy-logic/","updated":"2025-04-08T20:06:50.272+05:30"}
 ---
 
 #DigitalGarden

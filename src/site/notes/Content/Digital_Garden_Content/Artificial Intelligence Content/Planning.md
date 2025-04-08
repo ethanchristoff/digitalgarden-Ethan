@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/planning/","created":"2025-04-08T20:08:16.475+05:30","updated":"2025-04-08T20:08:50.159+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/planning/","updated":"2025-04-08T20:28:57.485+05:30"}
 ---
 
 #DigitalGarden 
@@ -36,13 +36,15 @@ There are two approaches to take if you want to plan a algorithm:
 	- Environment is fully observable
 	- Deterministic (outcome of any move is predictable, e.g. game of chess)
 	- Static (while agent is not moving task environment does not change around them hence it does not affect the overall outcome of the agent)
+	- Can be represented through STRIPS
 - Non-classical Planning:
 	- Partially Observable
 	- Stochastic (Environment has an unpredictable number of moves hence making the agents move in a task environment unpredictable e.g. rolling a dice, in other words the outcome is unpredictable and cannot be proven with certainty)
+	- Can be represented through MDP (Markov Decision Process Planning), POMDP (Partially Observable Markov Decision Process Planning)
 
 ## STRIPS
 
->[!important]
+>[!Definition]
 >The Standford Research Institute Problem Solver is an automated planning technique that uses a classical approach which enables users to create a plan to move an agent from one state to another in an algorithm. **STRIPS defines problems as a state space search where an agent transitions between different states using a set of predefined actions**.
 
 In other words, STRIPS is a planning language used in the development of an AI, it treats the problem as a "state space search" as to where the agent present in the task environment transitions from one state to another through the use of pre-defined actions. There are three main states in a STRIPS approach to creating a plan for an AI:
