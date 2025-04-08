@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/intelligent-agents/","updated":"2025-04-09T00:42:44.680+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/intelligent-agents/","updated":"2025-04-09T00:43:25.550+05:30"}
 ---
 
 #DigitalGarden 
@@ -30,7 +30,7 @@ When designing a rational agent, a **PEAS** approach may be regarded.
 - **Sensors** - Means taken to perceive the environment for the agent (e.g infra-red sensor)
 
 
-#### What are the different types of Task Environments?
+## What are the different types of Task Environments?
 
 There are different kinds of task environments that infer different influences onto an agent such that they affect the way they may behave:
 
