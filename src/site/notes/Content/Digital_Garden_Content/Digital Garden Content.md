@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"created":"2025-04-08T18:19:04.978+05:30","updated":"2025-04-08T20:08:42.552+05:30"}
 ---
 
-#DIgitalGarden
+#DigitalGarden
 
 ## General
 [[Content/Digital_Garden_Content/Data Engineering Content/Machine Learning Operations\|Machine Learning Operations]] - Covers MLOPS, etc
@@ -18,3 +18,10 @@
 [[Content/Digital_Garden_Content/Data Engineering Content/Apache Spark\|Apache Spark]] - Explanation of spark
 [[Content/Digital_Garden_Content/Data Engineering Content/Apache Airflow\|Apache Airflow]] - Explanation of Airflow and automation (e.g. Cronjobs and DAGS)
 [[Content/Digital_Garden_Content/Data Engineering Content/Apache Beam\|Apache Beam]] - Explanation of what Beam is
+
+## Artificial Intelligence 
+[[Content/Digital_Garden_Content/Artificial Intelligence Content/Alpha Beta Pruning\|Alpha Beta Pruning]] - Explanation of what Alpha Beta Pruning Is
+[[Content/Digital_Garden_Content/Artificial Intelligence Content/First Order Logic, Logical Agents & Prepositional Logic\|First Order Logic, Logical Agents & Prepositional Logic]] 
+[[Content/Digital_Garden_Content/Artificial Intelligence Content/Fuzzy Logic\|Fuzzy Logic]] - Covers the important topics in fuzzy logic
+[[Content/Digital_Garden_Content/Artificial Intelligence Content/Ontologies and Logic Graphs\|Ontologies and Logic Graphs]]
+[[Content/Digital_Garden_Content/Artificial Intelligence Content/Planning\|Planning]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/data-engineering-coursework-workflow/"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/data-engineering-coursework-workflow/","created":"2025-02-23T00:09:26.290+05:30","updated":"2025-04-08T18:26:40.109+05:30"}
 ---
 
 #aws #fundamentals
