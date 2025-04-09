@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/fuzzy-logic/","updated":"2025-04-08T20:06:50.272+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/fuzzy-logic/","updated":"2025-04-09T07:02:46.224+05:30"}
 ---
 
 #DigitalGarden
@@ -15,7 +15,7 @@ When it says many-valued logic, what it means is that there can be data relation
 
 ![Pasted image 20250326115100.png](/img/user/pngs/Pasted%20image%2020250326115100.png)
 
-The fundamental concept of fuzzy logic is "membership functions", a membership simply defines the degree of a relationship an input value may have to an outcome/category. In the system above the membership function states that there may be input values that fall into the categories:
+The fundamental concept of fuzzy logic is "membership functions", a membership simply defines **the degree of a relationship an input value may have to an outcome/category**. In the system above the membership function states that there may be input values that fall into the categories:
 
 - Very Much 
 - Little
@@ -51,7 +51,16 @@ In conclusion, fuzzy logic regards human like approximations whereas crisp data 
 
 ## Degrees of Truth
 
->[!important]
->Compared to assessing the probability of something, the degree of truth simply regards how truthful an element is to its membership to a state. For example, a cat has a tail, whiskers, etc hence making it have a degree of truth that enables it to pass on as a cat
+>[!Definition]
+>Compared to assessing the probability of something, the degree of truth simply regards how truthful an element is to its membership to a state. For example, its a hot day and given that it is a hot day it must mean that the temperature is at least 100 $^oC$
 
-In other words, the degree of truth assess to what extent is a proposition or statement true.
+In other words, degrees of truth are simply the intermediate values you would have in between a true and a false value, the represent a partially true or partially false statement. Furthermore, a statement made by a person differs from the other.
+
+One person may say "Its (0.7) hot today", while another person may mean "Its (0.9) hot today", hence defying another degree of truth that varies from person to person.
+
+## Membership Functions
+
+>[!Definition]
+>A membership function maps a value to an input based on its context, e.g. If the temperature is not to warm today it might be a higher value on the "niceness" scale, hence mapping the value to something closer to a higher value in terms of the degrees of truth
+
+Simple put, a membership function maps an input to a value to give it a more exact and fuzzified meaning. What is produced from this is known as a "fuzzy set".
