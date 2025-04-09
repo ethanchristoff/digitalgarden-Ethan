@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/fuzzy-logic/","updated":"2025-04-09T07:02:46.224+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/fuzzy-logic/","updated":"2025-04-09T07:06:24.742+05:30"}
 ---
 
 #DigitalGarden
@@ -28,13 +28,12 @@ In terms of what membership levels are, these are basically the values in betwee
 >[!important]
 >This refers to the process of processing a fuzzy set according to a set of inference rules, and the outputting the processed set into another fuzzy set that is utilized by the systems
 
-In the following image, there are three main processes taking place:
+![Pasted image 20250408175110.png](/img/user/pngs/Pasted%20image%2020250408175110.png)
+In the image above, there are three main processes taking place:
 
 1. **Fuzzification** - Takes in crisp data and converts the data into fuzzy values through the use of **membership functions** (a simple mathematical function used to define the degree in a which an element belongs to in a fuzzy set) and then outputs it as a fuzzy set
 2. **Inference** - Here is where the "if-then" rules occur, what the rules here do are map the degrees of truth from the fuzzy set to another set of fuzzy objects (e.g. *If the temperature is hot, then the fan speed is high*)
 3. **Defuzzification** - This converts the fuzzy input variables back into crisp data (e.g. *High Fan Speed (Fuzzy) = 80% Speed (Crisp)*)
-
-![Pasted image 20250408175110.png](/img/user/pngs/Pasted%20image%2020250408175110.png)
 ## Fuzzy vs. Crisp Data
 
 >[!important]
