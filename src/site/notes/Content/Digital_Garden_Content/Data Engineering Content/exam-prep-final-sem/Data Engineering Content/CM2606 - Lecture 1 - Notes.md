@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-1-notes/","updated":"2025-04-12T18:49:10.790+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-1-notes/","updated":"2025-04-12T19:06:15.029+05:30"}
 ---
 
 #CM606
@@ -85,3 +85,38 @@ Some of AWS's database include the following:
 | Graph         | Implemented for fraud detection, social networking and recommendation engines given that it stores data as interconnected nodes so its easier to map data from one node to another hence its content based optimization | Amazon Neptune                                |
 | Time Series   | Ideal for real time data analysis given that it is capable of time stamping real time data that is taken in by the system. It has fast write and retrieval speeds                                                       | Amazon TimeStream                             |
 | Ledger        | Optimal for record based storage systems as it is ideal for storing specialized and immutable data that provides information of records of data over time                                                               | Amazon Ledger Database Service                |
+## Amazon Storage Devices
+
+>[!Definition]
+>A storage device refers to the medium in which data is stored through an Amazon service based on its functional needs and specifications
+
+Some storage services offered by Amazon revolve around the following diagram:
+
+![Pasted image 20250412185023.png](/img/user/pngs/Pasted%20image%2020250412185023.png)
+
+Each storage service offers a different form of accessibility in terms of read and write speeds, data retention periods, etc. The following storage mediums in the diagram above are utilized like so:
+
+- **Amazon EBS** - Elastic Block Stores are block level storage mediums meant for EC2 instances
+- **Amazon EFS** - Manage file sharing system meant for a network/collective of EC2 instances coming together
+- **Amazon S3** - Secure, Safe, Storage medium that is a scalable cloud storage medium ideal for data lakes
+- **Amazon Glacier** - A low cost long term data storage cloud storage service, normally used for long term data archiving 
+
+## AWS Processing Services
+
+>[!Definition]
+>These are AWS services that provide resources meant for processing and executing tasks, such as a scheduling system for an ETL pipeline
+
+- **Amazon EC2** - A scalable virtual machine that is often used to deploy applications onto in order to process and run the application virtually
+- **AWS Lambda** - A serverless function that is invoked when a function is carried out (e.g. Uploading data onto an S3 bucket can invoke a Lambda function)
+- **AWS Elastic Beanstalk** - A scalable virtual machine that scales up based on the deployed applications process and memory utilization 
+
+## AWS Data Analysis
+
+>[!Definition]
+>In order to monitor data processes and visualize certain components of it, AWS offers data visualization services that provide a detailed report of the data being processed
+
+- **Amazon Redshift** - A cloud storage warehouse optimal for petabyte scale data management, it provides detailed reports of the data being passed through it
+- **Amazon Athena** - A serverless query service that analyses data in S3 using standard SQL
+- **Amazon QuickSight** - A business intelligence service that provides complex and fast visuals for business related activities
+- **Amazon Sagemaker** - A platform utilized by machine learning engineers to build, train and deploy machine learning models
+- **AWS Deep Learning AMI's** - Pre-Built Virtual machines that utilize NVIDIA GPU's to carry out deep learning tasks
