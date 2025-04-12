@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2025-04-08T20:29:54.779+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2025-04-12T15:49:26.906+05:30"}
 ---
 
 #DigitalGarden
@@ -20,6 +20,7 @@ You can contact me through the following mediums:
 ### General
 [[Content/Digital_Garden_Content/Data Engineering Content/Machine Learning Operations\|Machine Learning Operations]] - Covers MLOPS, etc
 [[Content/Digital_Garden_Content/Data Engineering Content/Kafka Confluent\|Kafka Confluent]] - Rundown on what Kafka is
+[[Content/Digital_Garden_Content/Data Engineering Content/exam-prep-final-sem/Data Engineering Notes Content - Exam Prep\|Data Engineering Notes Content - Exam Prep]] - Second Year Final Exam Prep
 ### AWS
 [[Content/Digital_Garden_Content/Data Engineering Content/Apache/AWS Content\|AWS Content]] - Link to AWS services content hub
 ### Apache

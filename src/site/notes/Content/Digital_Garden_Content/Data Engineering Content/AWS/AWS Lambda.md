@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/aws/aws-lambda/","updated":"2025-04-08T18:26:26.501+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/aws/aws-lambda/","updated":"2025-04-09T19:27:31.136+05:30"}
 ---
 
 #fundamentals #aws
