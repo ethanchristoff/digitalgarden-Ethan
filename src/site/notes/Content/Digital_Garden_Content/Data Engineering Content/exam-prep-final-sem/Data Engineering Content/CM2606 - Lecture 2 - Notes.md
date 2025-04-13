@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-2-notes/","updated":"2025-04-12T20:47:59.123+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-2-notes/","updated":"2025-04-13T11:01:48.670+05:30"}
 ---
 
 #CM2606 
@@ -32,6 +32,26 @@ Some of the most common modelling techniques include:
 
 Refer to the following table to see a detailed breakdown on the available databases in AWS:
 
-|     |     |
-| --- | --- |
-|     |     |
+| Database Type      | Description                                                                                                                                                                                                                                                       | Use Case                                                                                    |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Amazon RDS         | Relational Database System provided by AWS that provides detailed relationships between different entities. It is promoted as a highly available and scalable database                                                                                            | Transactional Applications (eCommerce, Banking), ERP, Business Intelligence Analytics       |
+| Amazon DynamoDB    | NoSQL database with quick/fast and predictable performance given that it does not have SQL queries, hence its fast speed. Ideal for high traffic applications that need quick responses, in other words, its ideal for real time data                             | Mobile Apps, IOT devices pipelines, Distributed serverless applications and gaming backends |
+| Amazon Elasticache | An in-memory database capable of caching data while providing fast and predictable performance, ideal for high speed look ups and trend based searches                                                                                                            | Web applications with cookies or caching mechanisms                                         |
+| Amazon Neptune     | Database that stores and manages data as interconnected nodes, which provides a scalable and optimized interface. Ideal for social media applications given that it can find relationships between nodes and develop recommendations based on these relationships | Social Media Applications, Recommendation Engines, Fraud Detection, knowledge Graphs        |
+To conclude, here are the key pointers of each database service from AWS:
+
+- **Amazon RDS**:
+	- Relational Database System
+	- Shows relationships between entities (e.g. cardinalities and foreign keys)
+	- Used for transactional apps and ERP tools
+- **Amazon DynamoDB**:
+	- NoSQL Database System
+	- Quick and fast responses
+	- Ideal for high traffic applications like IOT device pipelines and gaming backends
+- **Amazon Elasticache**:
+	- An in-memory database capable of caching temporary data
+	- Ideal for websites that use cookies or applications that store temporary data
+- **Amazon Neptune**:
+	- A graph database that stores data as interconnected nodes
+	- Ideal for social media apps due to it being capable of showing relationships
+	- Ideal for fraud detection, recommendation engines and knowledge graphs 
