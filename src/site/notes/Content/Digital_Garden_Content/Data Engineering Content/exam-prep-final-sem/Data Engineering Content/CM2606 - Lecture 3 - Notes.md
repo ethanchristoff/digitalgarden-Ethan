@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-13T14:51:19.074+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-13T16:48:21.189+05:30"}
 ---
 
 #CM2606 
@@ -72,6 +72,14 @@ Spark is a part of the Hadoop ecosystem as it takes care of big data related pro
 
 Spark is a substitute to Hadoops current MapReduce function as it offers to run processes in parallel with the added feature of **in-memory** processing. So, there are some features to consider when utilizing Spark instead of Hadoops map reduce model:
 
-| Feature    | Hadoop / Map Reduce | Spark |
-| ---------- | ------------------- | ----- |
-| Data Loads |                     |       |
+| Feature              | Hadoop / Map Reduce                                                                              | Spark                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| Data Loads           | Batch Processing                                                                                 | Both batch processing and real time processing                        |
+| Speeds               | Slower, data takes time to be written                                                            | Much more faster given their in-memory feature                        |
+| Optimizations        | Developers are responsible for optimizations                                                     | Spark has an auto optimization feature                                |
+| Language             | Java                                                                                             | Scala - Functional                                                    |
+| Coding               | Requires several classes for a small task                                                        | Same task can be executed with spark in one to two lines of code      |
+| Processing           | There are intermediate result stages if there are multiple map phases                            | In memory processing requires only one stage with underlying segments |
+| Iterative Algorithms | Mappers and reducers started and killed per iteration which consumes memory and processing power | Data is saved in memory and executors are stashed to be reused        |
+
+So, these are the basic features and fundamentals of Spark that can offer better performance than Hadoop's MapReduce processor.
