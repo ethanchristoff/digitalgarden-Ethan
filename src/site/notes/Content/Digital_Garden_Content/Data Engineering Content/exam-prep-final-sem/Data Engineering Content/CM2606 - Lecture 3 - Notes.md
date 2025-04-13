@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-13T16:48:21.189+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-13T17:43:09.535+05:30"}
 ---
 
 #CM2606 
@@ -83,3 +83,56 @@ Spark is a substitute to Hadoops current MapReduce function as it offers to run 
 | Iterative Algorithms | Mappers and reducers started and killed per iteration which consumes memory and processing power | Data is saved in memory and executors are stashed to be reused        |
 
 So, these are the basic features and fundamentals of Spark that can offer better performance than Hadoop's MapReduce processor.
+
+## Apache Spark Components
+
+![Pasted image 20250413171504.png](/img/user/pngs/Pasted%20image%2020250413171504.png)
+
+Spark consists of four main components, each of which present a different function:
+
+- **MLlib** - A machine learning library to provide a computational interface to host machine learning models on it
+- **Streaming** - Framework to stream real time data into a computational model, ideal for analytics related purposes
+- **SQL** - A distributed query engine that provides low latency, interactive queries
+- **GraphX** - Graph processing for spark based graphs and similar analytical tools
+
+## Spark Execution Model
+
+>[!Definition]
+>Spark utilizes a cluster based architecture as to where it manages multiple sub clusters of machines, each of which execute tasks concurrently. Refer to the following diagram to see how the architecture works
+
+![Pasted image 20250413173159.png](/img/user/pngs/Pasted%20image%2020250413173159.png)
+
+- **Driver Node**:
+	- Here is where the main function of the application is carried out, its the central coordinator for the Spark application
+	- Once a task has been defined a DAG is created
+	- After forming the DAG it is sent into the executor in the worker node
+	- Driver nodes consist o:
+		- **Spark Sessions** - here is where jobs are submitted and the datasets are fed into
+		- **Spark Context** - this is the underlying engine that manages sparks application by connecting the cluster manager, context and worker nodes while tracking job progress
+- **Cluster Manager**:
+	- This manages which DAG is to be executed from which cluster by specifying it
+	- Thereafter the worker node that is to carry out the DAG is specified here as well
+	- It assigns executors on **worker nodes** based on the driver’s request which can be one of the following:
+	    - **Standalone** (default Spark manager)
+	    - **YARN** (Hadoop ecosystem)
+	    - **Mesos**
+	    - **Kubernetes**
+	- Cluster managers help with resource allocations
+	- In other words, worker nodes are actual machines in which the specified tasks are carried out in
+- **Worker Nodes**:
+	- These are actual machines responsible for carrying out the tasks specified by the cluster manager
+	- They can store data in-memory for fault tolerance by ensuring that some tasks are cached in case it were to crash
+
+To summarize:
+
+1. A user starts a **Spark Session** on the Driver Node.
+    
+2. The **Spark Context** communicates with the **Cluster Manager** to request resources.
+    
+3. The **Cluster Manager** allocates **executors** on available **Worker Nodes**.
+    
+4. The **Driver** sends **tasks** (small units of work) to executors.
+    
+5. **Executors execute the tasks**, do computations, and report results back to the Driver.
+    
+6. Results are collected, cached, or written to storage.
