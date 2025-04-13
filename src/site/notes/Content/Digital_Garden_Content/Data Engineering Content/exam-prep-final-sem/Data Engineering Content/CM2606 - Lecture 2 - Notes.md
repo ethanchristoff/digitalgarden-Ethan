@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-2-notes/","updated":"2025-04-13T11:01:48.670+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-2-notes/","updated":"2025-04-13T16:40:44.371+05:30"}
 ---
 
 #CM2606 
@@ -38,6 +38,7 @@ Refer to the following table to see a detailed breakdown on the available databa
 | Amazon DynamoDB    | NoSQL database with quick/fast and predictable performance given that it does not have SQL queries, hence its fast speed. Ideal for high traffic applications that need quick responses, in other words, its ideal for real time data                             | Mobile Apps, IOT devices pipelines, Distributed serverless applications and gaming backends |
 | Amazon Elasticache | An in-memory database capable of caching data while providing fast and predictable performance, ideal for high speed look ups and trend based searches                                                                                                            | Web applications with cookies or caching mechanisms                                         |
 | Amazon Neptune     | Database that stores and manages data as interconnected nodes, which provides a scalable and optimized interface. Ideal for social media applications given that it can find relationships between nodes and develop recommendations based on these relationships | Social Media Applications, Recommendation Engines, Fraud Detection, knowledge Graphs        |
+
 To conclude, here are the key pointers of each database service from AWS:
 
 - **Amazon RDS**:
