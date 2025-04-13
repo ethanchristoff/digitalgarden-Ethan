@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-13T12:49:37.191+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-13T14:51:19.074+05:30"}
 ---
 
 #CM2606 
@@ -45,7 +45,33 @@ In the image above, the following features may be noted:
 >[!Definition]
 >Given that AWS provides a plethora of services, storage devices are included as one of its main components and resources. Refer to the following to see the types of mediums it offers
 
-| Service    | Description                                                                                                                                                                                                                                                       | Use Case                                                                                                               |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Amazon S3  | Object based storage designed for applications that require highly available and scalable storage solutions. The data stored here is not meant to be quickly accessible for instances such as IOT device outputs, rather it is meant for loading static data onto | Data Lakes, Log Storage, Data Pipeline Endpoint, Backup and Archives                                                   |
-| Amazon EBS | This is a block storage medium provided for EC2 instances given their high performance and persistent storage capabilities. **Block storage means that data is stored in fixed-size chunks known as blocks**, each block has an identifier                        | Relational Database Storage, Application storage, EC2 boot volumes, Container storage (e.g. Docker based applications) |
+| Service                     | Description                                                                                                                                                                                                                                                       | Use Case                                                                                                                                                                          |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Amazon S3                   | Object based storage designed for applications that require highly available and scalable storage solutions. The data stored here is not meant to be quickly accessible for instances such as IOT device outputs, rather it is meant for loading static data onto | Data Lakes, Log Storage, Data Pipeline Endpoint, Backup and Archive                                                                                                               |
+| Amazon EBS                  | This is a block storage medium provided for EC2 instances given their high performance and persistent storage capabilities. **Block storage means that data is stored in fixed-size chunks known as blocks**, each block has an identifier                        | Relational Database Storage, Application storage, EC2 boot volumes, Container storage (e.g. Docker based application                                                              |
+| Amazon Elastic Files System | This is a managed network files system, its offers a shared storage medium for groups of EC2 instances that enable multiple users to access the same storage medium                                                                                               | Shared Files Systems, Big Data Analytics, Web Serving (e.g. Shared static content), Media process                                                                                 |
+| Amazon Glacier              | This is a secure long term storage medium ideal for data archiving and similar instances given that its data is not meant to be accessed constantly, rather rarely instead                                                                                        | Data Archives, Regulatory Archives (archival storage for financial and regulatory compliance, ensuring long term data retention), Document Archives, Substitute to magnetic tapes |
+To conclude, each storage medium has a set of different implications, refer to the following:
+
+- **S3** - Ideal for immediate data storage solutions with fast access
+- **EBS** - Ideal for booting EC2 instances or similar operations
+- **EFS** - Ideal for shared access based storage networks
+- **Glacier** - Ideal for long terms storage given its low latency access rates, etc
+
+## Apache Spark
+
+>[!Definition]
+>Apache spark is an **open source distributed computing engine** that focuses on big data processing and analytics, etc. It is ideal for running complex tasks on the cloud given its distributed computational power, hence its ability to execute these tasks with ease
+
+Spark is a part of the Hadoop ecosystem as it takes care of big data related projects. One of the main features of spark is the fact that it has in-memory computing, hence enabling it to complete complex tasks. 
+
+**Hadoop** is an open source framework for storing and processing large datasets across multiple computer clusters. It has two main components:
+
+- **HDFS (Hadoop Distributed File System)** - A distributed file system that stores data across multiple machines
+- **MapReduce (Processing Engine)** - A programming model utilized by Hadoop to process data in parallel, it does so by **Mapping** the data (filtering and sorting) and then **Reduces** it (summarizes and shortens)
+
+Spark is a substitute to Hadoops current MapReduce function as it offers to run processes in parallel with the added feature of **in-memory** processing. So, there are some features to consider when utilizing Spark instead of Hadoops map reduce model:
+
+| Feature    | Hadoop / Map Reduce | Spark |
+| ---------- | ------------------- | ----- |
+| Data Loads |                     |       |
