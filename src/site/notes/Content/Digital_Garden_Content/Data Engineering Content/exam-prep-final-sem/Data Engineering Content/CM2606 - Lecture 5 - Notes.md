@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-15T15:31:06.169+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-15T15:31:40.564+05:30"}
 ---
 
 #CM2606
@@ -79,3 +79,7 @@ The application in which the processing system is implemented must be considered
 
 - Batch processing lends itself to periodic workloads, hence leading to occasional usages thus making an application that requires periodic processing times utilize a batch processing system better than a real time processing system which is more inexpensive and efficient (e.g. ETL pipelines that run weekly)
 - Real time processing tends to process data immediately and is expected to process low volumes of data that have a low latency, hence making real time systems more optimal for the given context (e.g. fraud detection or anomaly detection or spam detection)
+
+## AWS Services
+
+>[!Important]
