@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-4-notes/","updated":"2025-04-15T13:07:29.544+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-4-notes/","updated":"2025-04-15T13:12:29.202+05:30"}
 ---
 
 #CM2606
@@ -85,4 +85,15 @@ There are three main tiers to a data warehouse architecture:
 | Scope   | Enterprise wide scope which is application independant, consists of data from all sources                  | Application dependant, focuses on providing data to a single application from a single source routed through the warehouse |
 | Data    | Consists of historical data all the way to denormalized data that came in straight from the ingestion flow | Highly denormalized data that have specified variations of data fit for a specific application or endpoint                 |
 | Sources | Many internal and external sources                                                                         | Few internal and external sources                                                                                          |
-| Other   |                                                                                                            |                                                                                                                            |
+| Other   | Flexible, data oriented, long life and a complex structure                                                 | Restrictive, Project oriented, Short life and multiple simple structures                                                   |
+## Security in a Data Warehouse
+
+>[!Definition]
+>Given the Data Warehouses work with personally identifiable information (PII) it must maintain a security standard to ensure that none of the PII is revealed. Hence the need for data encryption rules and policies 
+
+- Firstly, data must be classified into a category that fits its criteria
+- Thereafter the data must be encrypted
+- Rule/Role Based Access control polices and roles may be implemented in order to initiate levels of access and authorization
+	- An example of a rule may be TLS for encrypting data in transit and AWS for encrypting static data
+	- An example of roles may be admins who have full write and read access while there are endpoint users such as doctors, etc, who access the data from API's
+	- Least privileges may be assigned here
