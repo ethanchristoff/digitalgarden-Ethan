@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-15T15:31:40.564+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-15T16:42:54.949+05:30"}
 ---
 
 #CM2606
@@ -83,3 +83,32 @@ The application in which the processing system is implemented must be considered
 ## AWS Services
 
 >[!Important]
+>AWS services are basically an array of tools and services that provide a resource for a limited period of time or with scalable limits
+
+Some of AWS services include:
+
+- **Amazon EMR** - Scalable cluster solution for batch processing on Hadoop
+- **Amazon Kinesis** - Streaming data platform for real time data processing and ingestion
+- **Amazon Redshift** - Fats data warehouse solution for big data storage, etc
+- **Amazon Lambda** - Serverless invocation service that offers compute services for real time events
+
+## What is AWS Lambda?
+
+>[!Definition]
+>AWS Lambda is a serverless computing service that offers invocations when certain events are triggered to alert a user on that event occurring, or similar functions. It may even create functions that execute algorithms to execute another sub service
+>
+
+Lambda refers to compute times to bill users in a code, the longer the execution time of a code the higher the bill. However, it does not require a designated structure to run on rather it requires a invocation to be executed. When idle, it does not bill the user given that it is not executed. 
+
+To conclude, lambda is an event driven process that carries out functions when invoked by another function such as uploading data into an S3 bucket.
+
+## What is Apache Beam?
+
+>[!Definition]
+>Beam is an open source unified model responsible for batch and stream processing data in parallel pipelines, hence making it an orchestration tool of sorts
+
+Similar to Spark, it is a distributed computational network of machines called runners that execute tasks parallel to each other in code by executing them through lines of code. It can then offload the processed data into machines that are a part of clusters in spark.
+
+The difference between beam and spark is that spark is a distributed computing engine responsible for big data processing by processing data in clusters of machines called worker nodes. Whereas Beam is a programming model that defines data processing pipelines that can run on processing engines such as Spark.
+
+Beam is the code used to run algorithms parallelly using stream and batch processing that is then executed on a Spark based framework. So Spark is the engine Beam's parallel code is run on.
