@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-6-notes/","updated":"2025-04-15T18:49:22.518+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-6-notes/","updated":"2025-04-15T18:52:37.628+05:30"}
 ---
 
 #CM2606 
@@ -82,3 +82,23 @@ The entire point of scaling is to limit ranges in data such that it does not exc
 
 - **Anonymization** -Removing PII from datasets
 - **Encryption** - Encrypting the data such that PII is not revealed
+
+Take the following for example, data before sanitization:
+
+![Pasted image 20250415184957.png](/img/user/pngs/Pasted%20image%2020250415184957.png)
+
+Data after sanitization:
+
+![Pasted image 20250415185019.png](/img/user/pngs/Pasted%20image%2020250415185019.png)
+### Data Validation
+
+>[!Definition]
+>The final step to data cleaning refers to the process of validating the data to ensure accuracy and integrity.
+
+It maybe done so by assessing if the data still adheres to the mentioned rules and constraints through:
+
+- Range Checks
+- Consistency Checks (e.g. cross referencing related fields)
+- Data type validations
+- Pattern Matching (e.g. checking valid email formats)
+- Business rule validation (e.g. Checking to see if data adheres to business logic)
