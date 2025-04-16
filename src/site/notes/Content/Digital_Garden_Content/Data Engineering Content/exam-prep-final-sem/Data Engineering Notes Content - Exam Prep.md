@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-notes-content-exam-prep/","updated":"2025-04-16T18:54:55.765+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-notes-content-exam-prep/","updated":"2025-04-16T19:55:32.932+05:30"}
 ---
 
 #CM2606 
@@ -12,3 +12,4 @@
 [[Content/Digital_Garden_Content/Data Engineering Content/exam-prep-final-sem/Data Engineering Content/CM2606 - Lecture 6 - Notes\|CM2606 - Lecture 6 - Notes]] - Notes taken down for Lecture 6
 [[Content/Digital_Garden_Content/Data Engineering Content/exam-prep-final-sem/Data Engineering Content/CM2606 - Lecture 7 - Notes\|CM2606 - Lecture 7 - Notes]] - Notes taken down for Lecture 7
 [[Content/Digital_Garden_Content/Data Engineering Content/exam-prep-final-sem/Data Engineering Content/CM2606 - Lecture 8 - Notes\|CM2606 - Lecture 8 - Notes]] - Notes taken down for Lecture 8
+[[Content/Digital_Garden_Content/Data Engineering Content/exam-prep-final-sem/Data Engineering Content/CM2606 - Lecture 9 - Notes\|CM2606 - Lecture 9 - Notes]] - Notes taken down for Lecture 9
