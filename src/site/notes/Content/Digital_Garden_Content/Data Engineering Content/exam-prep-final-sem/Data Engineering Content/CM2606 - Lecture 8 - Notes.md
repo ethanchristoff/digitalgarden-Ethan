@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-8-notes/","updated":"2025-04-16T19:46:04.855+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-8-notes/","updated":"2025-04-16T19:53:57.534+05:30"}
 ---
 
 #CM2606
@@ -75,3 +75,32 @@ When it comes to deciding on what WMS is optimal for a given use case, consider 
 - Scalability and cost
 
 To conclude, the integration of a WMS in a data pipeline helps orchestrate everything with ease while optimizing workflows and improving operational efficiency.
+
+## What is MLOps?
+
+>[!Definition]
+>Refers to the process of orchestrating and optimizing machine learning lifecycles through similar concepts that a devops engineer would implement. It in other words, is a set of practices carried out to streamline and automate the end to end process of a machine learning lifecycle 
+
+The end goal of an MLOps engineer is to ensure that a machine learning model functions properly in production and ensures reliability and efficiency. The key components of a MLOps engineer include:
+
+- Data Management
+- Model Development 
+- Model Deployment (e.g. Containerization through Docker, etc)
+- Monitoring pipelines and performances (inclusive of model retraining if the model were to be outdated)
+- Collaboration through tools like Jira
+
+Some tools and technologies utilized in the process include:
+
+- Data versioning through tools such as Delta Lake
+- Experiment tracking
+- Model Deployment through containers (e.g. Docker, Kubernetes, Tensorflow)
+- Monitoring (e.g. Prometheus, Grafana) 
+- Continuous Integration/Continuous Delivery (CI/CD) - GitHib, Jenkins
+
+Some best practices an MLOps engineer can follow include:
+
+- Data versioning 
+- Pipeline automation with scheduling, etc
+- Continuous Monitoring 
+- Efficient Collaboration
+- Documenting everything 
