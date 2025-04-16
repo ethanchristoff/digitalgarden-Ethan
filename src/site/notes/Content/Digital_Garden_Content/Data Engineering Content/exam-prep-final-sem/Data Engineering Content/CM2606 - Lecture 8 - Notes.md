@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-8-notes/","updated":"2025-04-16T19:14:49.303+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-8-notes/","updated":"2025-04-16T19:46:04.855+05:30"}
 ---
 
 #CM2606
@@ -39,3 +39,39 @@ A typical data pipeline is similar to the following:
 
 ![Pasted image 20250416191447.png](/img/user/pngs/Pasted%20image%2020250416191447.png)
 
+The components of the data pipeline mentioned above can be broken down like so:
+
+| Component   | Description                                                                                                                                                                             | Example                                                                                                                                                                                                                                         |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Data Source | Source of where the data comes from which could be anything from transactional data to surveillance data                                                                                | Transactional Data (e.g. data from POS or ATM systems), Databases, Clickstream data (e.g. data generated from web applications), Logs (historical data from interactions made on web application), Social Media, Sensor Data, Surveillance data |
+| Ingestion   | Refers to the process of how the data is collected from each source which could be anything from a single push to a repository to a complex collection from multiple sources            | Push to a system, Pull from a system, Data Streaming                                                                                                                                                                                            |
+| Data Lake   | A landing zone for raw data collected from each source that is transformed to a minimal extent or not at all and is stored in multiple formats. It is partitioned by the data collected | Conversions that may occur in a lake: CSV to xlsx or similar domains                                                                                                                                                                            |
+The main features of an AWS pipeline include seamless integration with other services such as CloudWatch for monitoring or S3 for offloading into. The services are scalable and very flexible.
+
+## What are workflow management systems?
+
+>[!Definition]
+>Basically a system that helps you monitor and manage your data pipelines by automating or scheduling tasks, coordinating load locations and orchestrating other processes to occur if another does
+
+Some of the key benefits of using a workflow management system (WMS) include:
+
+- **Centralized Control** - Everything is in one place and easily manageable, providing a holistic view of the entire process, hence simplifying the entire operation
+- **Visual Workflow Creation** - Easy to drag and drop processes now (e.g. Airflow)
+- **Scheduling and Triggering** - Events can occur at scheduled times or can be programmed to be triggered when an event occurs, hence the importance of a WMS
+- **Error Handling and Recovery** - Easy to setup mitigation plans when errors occur or to simply set alerts that are prompted in the case of an error occurring. Recovery methods are introduced as well with caching, etc
+- **Scalable and Resilient** - Can handle increasing volumes and loads of data to maximize and optimize higher velocity data intakes
+
+Some AWS WMS options include:
+
+- **AWS Step Functions** - Serverless workflow service with visual workflow creation
+- **AWS Glue** - Integration service that includes scheduling services and ETL job creations with a visual interface
+- **Amazon Managed Workflows for Apache Airflow (MWAA)** - Solution service that offers pre-set deployments of Airflow onto AWS services in a scalable manner
+
+When it comes to deciding on what WMS is optimal for a given use case, consider the following features:
+
+- Data volume and pipeline complexity
+- Ease of use
+- Interpretability from existing tools and services for integrations
+- Scalability and cost
+
+To conclude, the integration of a WMS in a data pipeline helps orchestrate everything with ease while optimizing workflows and improving operational efficiency.
