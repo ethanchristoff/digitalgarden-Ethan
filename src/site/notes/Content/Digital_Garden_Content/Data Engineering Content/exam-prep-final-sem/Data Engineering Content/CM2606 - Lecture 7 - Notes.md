@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-7-notes/","updated":"2025-04-16T18:23:13.542+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-7-notes/","updated":"2025-04-16T18:53:34.614+05:30"}
 ---
 
 #CM2606
@@ -18,7 +18,7 @@ Data transparency refers to making the data transparent by explicitly stating wh
 
 **OpenLineage** is a system that helps track and organize how data is collected, processed and stored. Refer to the following diagram:
 
-![Pasted image 20250416084132.png](/img/user/Pasted%20image%2020250416084132.png)
+![Pasted image 20250416084132.png](/img/user/pngs/Pasted%20image%2020250416084132.png)
 
 You can see here how data is collected from a source and how it is unloaded as a dataset. The following points elaborate on what each value means here:
 
@@ -80,3 +80,18 @@ It must be stated that only two of the three properties can work together in CAP
 - **CA** - A system can be consistent and available but cannot tolerate miscommunications between partitions
 - **CP** - A system can be consistent and partition tolerant but it cannot always be available if a node is down
 - **AP** - A system can both be available and its partitions can tolerate faults with communications but it cannot be consistent with its data meaning that not all nodes will know if a change is made in one node
+
+It must be understood that CAP theorem is a theory that issues trade offs for the sake of maximizing either consistent data at the cost of unavailability within a system or making the system as available as possible at the cost of inconsistent data.
+
+![Pasted image 20250416183917.png](/img/user/pngs/Pasted%20image%2020250416183917.png)
+
+An example of a system that is more available than consistent is Amazon's DynamoDB, a NoSQL database that is ideal for quick transactions that can be used as a gaming backend.
+
+In the case of focusing on just consistency and availability it would mean that:
+
+- If a single partition break were to occur, the entire system would be unavailable to ensure 100% consistency
+- Due to the above feature, data values will always be consistent and available as long as there are no partition breaks
+- If there are any partition breaks, then the system will not work
+
+>[!important]
+>Partition breaks basically mean that if there is a single break in the system, it should still work but in the case of something where both consistency and availability are maximized then it is to be assumed that if there is even a single partition break the entire system will not work
