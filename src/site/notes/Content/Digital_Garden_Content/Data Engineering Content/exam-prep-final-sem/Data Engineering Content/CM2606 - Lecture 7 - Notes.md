@@ -1,5 +1,73 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-7-notes/","updated":"2025-04-15T18:53:16.626+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-7-notes/","updated":"2025-04-16T17:53:03.329+05:30"}
 ---
 
-#CM2606 
+#CM2606
+
+## What is a Data Catalogue?
+
+>[!Definition]
+>Data cataloguing refers to the process of cataloguing data and organizing it according to their similar attributes. It ensures that some datasets comply with rules and constraints while enforcing transparency and usability
+
+Data transparency refers to making the data transparent by explicitly stating what its meant to be used for and why it is to be collected which in this context is by cataloguing it with other data values with similar attributes
+
+## What is data lineage?
+
+>[!Definition]
+>It refers to the process of tracking the path of data, hence the name lineage. You would be considering where the data is collected from, where it is processed and where it is outputted into
+
+**OpenLineage** is a system that helps track and organize how data is collected, processed and stored. Refer to the following diagram:
+
+![Pasted image 20250416084132.png](/img/user/Pasted%20image%2020250416084132.png)
+
+You can see here how data is collected from a source and how it is unloaded as a dataset. The following points elaborate on what each value means here:
+
+- **Source** - Place where the data comes from (e.g. MYSQL, KAFKA, etc)
+- **Dataset** - Table or stream of data from the source
+- **Dataset Version** - A specific snapshot of a dataset, hence creating a version of it
+- **Job** - Refers to a process that is carried out to carry out a function on the data
+- **Job Version** - Snapshot of a job that creates a history of changes made to the jobs (e.g. can be carried out with a batch or stream processing algorithm)
+- **Run** - A job that is run once and constantly 
+- **DbTable/Stream** - The type of data being collected is either from a database or streaming platform
+
+Some common issues experienced by using OpenLineage include:
+
+- **Lack of standardization** - Values do not have a standard deviation of 1 or mean of 0
+- **Difficult in tracking data lineage** - Hard to pinpoint the source and flow of data
+- **Integration with diverse tools and platforms** - Difficult to integrate this system with common tools and platforms
+
+## Distributed Systems
+
+>[!Definition]
+>A distributed system is a collection of independant computers working together to solve a common problem by sharing data and resources, hence the name "distributed"
+
+Some of the key benefits of using a distributed system include:
+
+- Improved processing power due to combination of multiple machines resources
+- Highly scalable given that you can easily add a new machine to the system
+- Highly available, hence providing fault tolerance and avoiding unnecessary down times while reducing redundancy
+- Can execute tasks concurrently and in parallel, hence the term parallelism 
+
+There are also NoSQL distributed systems which is basically a database architecture that is designed for flexibility and scalability. The main characteristics of a NoSQL database is that:
+
+- It is Schema-Less which support evolving data models
+- Horizontally scalable by adding nodes to handled increasing volumes of data
+- Highly available 
+- Diverse data model that can support key value, graph and document databases
+
+## Cap Theorem
+
+>[!Definition]
+>It is a fundamental logic and theory in distributed computing that states (C) consistency where every node can see what is happening in each other node, (A) availability where the system always responds to requests and (P) partition tolerance which states that the system continues to work even if there are communication issues between nodes
+
+CAP theorem is a fundamental theory in distributed systems that state the following terms:
+
+- **Consistency** - States that every node can see what is happening in the other nodes, this means that if a change is made in one node it will be replicated in every other node
+- **Availability** - States that the system must always be available and respond when requested even when there is an issue in the system
+- **Partition Tolerance** - States that even when there are issues communicating between nodes, the system will still respond
+
+To conclude, CAP theorem refers to a theory every distributed system must adhere to in order to ensure that it functions as a proper system. The main features are:
+
+- **Consistency - Ensures that every node in the system can see when data changes in another node**
+- **Availability - Ensures that when prompted the system will always respond even if a portion of it is inactive**
+- **Partition Tolerance - Ensures that even if there are difficulties communicating between nodes, the system will still respond**
