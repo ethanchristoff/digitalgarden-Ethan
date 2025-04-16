@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-7-notes/","updated":"2025-04-16T17:53:03.329+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-7-notes/","updated":"2025-04-16T18:23:13.542+05:30"}
 ---
 
 #CM2606
@@ -66,8 +66,17 @@ CAP theorem is a fundamental theory in distributed systems that state the follow
 - **Availability** - States that the system must always be available and respond when requested even when there is an issue in the system
 - **Partition Tolerance** - States that even when there are issues communicating between nodes, the system will still respond
 
+>[!Important]
+>A network partition is basically when a part of the network is partitioned off preventing a node from communicating with the rest of the server, so partition tolerance states how well a server can handle a single node being cut off from communicating with the rest of the network
+
 To conclude, CAP theorem refers to a theory every distributed system must adhere to in order to ensure that it functions as a proper system. The main features are:
 
 - **Consistency - Ensures that every node in the system can see when data changes in another node**
-- **Availability - Ensures that when prompted the system will always respond even if a portion of it is inactive**
-- **Partition Tolerance - Ensures that even if there are difficulties communicating between nodes, the system will still respond**
+- **Availability - Clients can actively update and change data even if a node fails
+- **Partition Tolerance - The system is able to operate even if the network fails (e.g. If a system is distributed regionally, if even one region has issues communicating the system will still respond)**
+
+It must be stated that only two of the three properties can work together in CAP theorem:
+
+- **CA** - A system can be consistent and available but cannot tolerate miscommunications between partitions
+- **CP** - A system can be consistent and partition tolerant but it cannot always be available if a node is down
+- **AP** - A system can both be available and its partitions can tolerate faults with communications but it cannot be consistent with its data meaning that not all nodes will know if a change is made in one node
