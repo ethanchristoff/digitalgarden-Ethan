@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-15T16:42:54.949+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-17T13:12:28.126+05:30"}
 ---
 
 #CM2606
@@ -111,4 +111,4 @@ Similar to Spark, it is a distributed computational network of machines called r
 
 The difference between beam and spark is that spark is a distributed computing engine responsible for big data processing by processing data in clusters of machines called worker nodes. Whereas Beam is a programming model that defines data processing pipelines that can run on processing engines such as Spark.
 
-Beam is the code used to run algorithms parallelly using stream and batch processing that is then executed on a Spark based framework. So Spark is the engine Beam's parallel code is run on.
+Beam is the code used to run algorithms parallelly using stream and batch processing that is then executed on a machine framework such as Spark. So Spark is the engine Beam's parallel code is runs on through the use of "runners".
