@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-13T17:43:09.535+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-3-notes/","updated":"2025-04-22T15:45:41.269+05:30"}
 ---
 
 #CM2606 
@@ -83,6 +83,14 @@ Spark is a substitute to Hadoops current MapReduce function as it offers to run 
 | Iterative Algorithms | Mappers and reducers started and killed per iteration which consumes memory and processing power | Data is saved in memory and executors are stashed to be reused        |
 
 So, these are the basic features and fundamentals of Spark that can offer better performance than Hadoop's MapReduce processor.
+
+>[!important]
+>Spark has the added benefit of something called **RDD** (Resilient Distributed Dataset) and in-memory processing
+
+- **RDD** basically stands for a Resilient Distributed Dataset that is a read only set of data that is used to separate data when distributing it into the Spark System
+- This is ideal for data lineage reconstruction as it could trace back where the data had originated from by tracing it back to the RDD
+- It makes the process of partitioning datasets much easier without having to worry about finding the source of the data as its stored in an immutable dataset
+- In-memory processing is a direct contrast that makes Spark computational engine better than Hadoop's "MapReduce" function given that it can cache recently utilized algorithms and run it immediately, etc
 
 ## Apache Spark Components
 
