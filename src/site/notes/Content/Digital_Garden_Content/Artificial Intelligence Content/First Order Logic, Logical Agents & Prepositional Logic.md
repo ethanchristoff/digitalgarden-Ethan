@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/first-order-logic-logical-agents-and-prepositional-logic/","updated":"2025-04-08T20:06:31.726+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/first-order-logic-logical-agents-and-prepositional-logic/","updated":"2025-04-08T20:06:31.000+05:30"}
 ---
 
 #DIgitalGarden 

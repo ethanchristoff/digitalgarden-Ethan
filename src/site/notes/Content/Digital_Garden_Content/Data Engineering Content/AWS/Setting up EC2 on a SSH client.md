@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/aws/setting-up-ec-2-on-a-ssh-client/","updated":"2025-04-08T18:26:54.892+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/aws/setting-up-ec-2-on-a-ssh-client/","updated":"2025-04-08T18:26:54.000+05:30"}
 ---
 
 #fundamentals #aws

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-17T13:12:28.126+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-5-notes/","updated":"2025-04-17T13:12:28.000+05:30"}
 ---
 
 #CM2606

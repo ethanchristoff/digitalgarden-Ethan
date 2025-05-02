@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/apache/apache-spark/","updated":"2025-04-08T18:26:13.827+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/apache/apache-spark/","updated":"2025-04-08T18:26:13.000+05:30"}
 ---
 
 #fundamentals #apache

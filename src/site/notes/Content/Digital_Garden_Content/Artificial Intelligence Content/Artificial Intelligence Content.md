@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/artificial-intelligence-content/","updated":"2025-04-08T21:57:53.666+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/artificial-intelligence-content/","updated":"2025-04-08T21:57:53.000+05:30"}
 ---
 
 #DigitalGarden 
