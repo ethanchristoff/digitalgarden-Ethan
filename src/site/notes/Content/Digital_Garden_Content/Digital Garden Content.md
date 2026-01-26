@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2025-04-23T22:29:47.000+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2026-01-26T15:07:55.642+05:30"}
 ---
 
 #DigitalGarden
@@ -25,5 +25,6 @@ You can contact me through the following mediums:
 [[Content/Digital_Garden_Content/Data Engineering Content/Apache/AWS Content\|AWS Content]] - Link to AWS services content hub
 ### Apache
 [[Content/Digital_Garden_Content/Data Engineering Content/Apache Content\|Apache Content]] - Link to Apache Content
+[[Content/Digital_Garden_Content/Airflow Astronomer Certification/Airflow Astronomer Certification Content\|Airflow Astronomer Certification Content]] - Link to personal notes taken for a certification
 ### Artificial Intelligence 
 [[Content/Digital_Garden_Content/Artificial Intelligence Content/Artificial Intelligence Content\|Artificial Intelligence Content]] - Link to AI content hub
