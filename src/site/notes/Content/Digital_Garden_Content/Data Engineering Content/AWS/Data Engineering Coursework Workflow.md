@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/aws/data-engineering-coursework-workflow/","updated":"2025-04-08T18:26:40.000+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/aws/data-engineering-coursework-workflow/","updated":"2025-04-08T18:26:40.109+05:30"}
 ---
 
 #aws #fundamentals
@@ -296,15 +296,7 @@ A DAG (Directed Acyclic Graph) is simply the blueprint used to define the workfl
 
 The DAG developed for the coursework is to regard the following layout:
 
-
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
-
-
-</div></div>
-
+![[Pasted image 20250302173901.png\|Pasted image 20250302173901.png]]
 
 ### **1. Installing Apache Airflow**
 

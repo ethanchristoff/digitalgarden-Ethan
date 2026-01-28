@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/apache/apache-airflow/","updated":"2025-04-08T18:25:53.000+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/apache/apache-airflow/","updated":"2025-04-08T18:25:53.182+05:30"}
 ---
 
 #fundamentals #apache

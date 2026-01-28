@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/alpha-beta-pruning/","updated":"2025-04-08T20:11:43.000+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/artificial-intelligence-content/alpha-beta-pruning/","updated":"2025-04-08T20:11:43.956+05:30"}
 ---
 
 

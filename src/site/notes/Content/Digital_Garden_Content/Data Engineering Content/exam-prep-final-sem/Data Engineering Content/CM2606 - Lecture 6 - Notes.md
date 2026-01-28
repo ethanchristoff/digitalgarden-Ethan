@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-6-notes/","updated":"2025-04-15T18:52:37.000+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/data-engineering-content/exam-prep-final-sem/data-engineering-content/cm-2606-lecture-6-notes/","updated":"2025-04-15T18:52:37.628+05:30"}
 ---
 
 #CM2606 
@@ -85,11 +85,11 @@ The entire point of scaling is to limit ranges in data such that it does not exc
 
 Take the following for example, data before sanitization:
 
-![Pasted image 20250415184957.png](/img/user/pngs/Pasted%20image%2020250415184957.png)
+![[Pasted image 20250415184957.png\|Pasted image 20250415184957.png]]
 
 Data after sanitization:
 
-![Pasted image 20250415185019.png](/img/user/pngs/Pasted%20image%2020250415185019.png)
+![[Pasted image 20250415185019.png\|Pasted image 20250415185019.png]]
 ### Data Validation
 
 >[!Definition]
