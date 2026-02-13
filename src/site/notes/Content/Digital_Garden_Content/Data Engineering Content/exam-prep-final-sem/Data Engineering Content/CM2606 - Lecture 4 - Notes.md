@@ -62,7 +62,7 @@ A **data mart** is a subset of a data warehouse that offers similar features but
 
 In other words, a data mart is like a leaf node for a data warehouse where the data warehouse acts as the broker/aggregate for data in between an ETL pipeline and a data mart. Refer to the following image to see how data warehouses broker data to marts:
 
-![[Pasted image 20250415125011.png\|Pasted image 20250415125011.png]]
+![Pasted image 20250415125011.png](/img/user/pngs/Pasted%20image%2020250415125011.png)
 
 ## Data Warehouse Architectures
 

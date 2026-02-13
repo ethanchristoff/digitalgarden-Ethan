@@ -64,6 +64,6 @@ In short, Deployment in Machine Learning is the method by which you integrate a 
 
 Machine learning models may be accessed through API's as it provides an interaction based interface to access the outcomes of the model. In most cases the output may be in the form of a `.json` file, etc. Refer to the following image to see how most API's access machine learning models:
 
-![[Pasted image 20250320164024.png\|Pasted image 20250320164024.png]]
+![Pasted image 20250320164024.png](/img/user/pngs/Pasted%20image%2020250320164024.png)
 
 The model above shows that an observation is fed into the REST API (e.g django), which then communicates with the model to get a prediction.

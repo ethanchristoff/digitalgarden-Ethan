@@ -18,7 +18,7 @@ Data transparency refers to making the data transparent by explicitly stating wh
 
 **OpenLineage** is a system that helps track and organize how data is collected, processed and stored. Refer to the following diagram:
 
-![[Pasted image 20250416084132.png\|Pasted image 20250416084132.png]]
+![Pasted image 20250416084132.png](/img/user/pngs/Pasted%20image%2020250416084132.png)
 
 You can see here how data is collected from a source and how it is unloaded as a dataset. The following points elaborate on what each value means here:
 
@@ -83,7 +83,7 @@ It must be stated that only two of the three properties can work together in CAP
 
 It must be understood that CAP theorem is a theory that issues trade offs for the sake of maximizing either consistent data at the cost of unavailability within a system or making the system as available as possible at the cost of inconsistent data.
 
-![[Pasted image 20250416183917.png\|Pasted image 20250416183917.png]]
+![Pasted image 20250416183917.png](/img/user/pngs/Pasted%20image%2020250416183917.png)
 
 An example of a system that is more available than consistent is Amazon's DynamoDB, a NoSQL database that is ideal for quick transactions that can be used as a gaming backend.
 

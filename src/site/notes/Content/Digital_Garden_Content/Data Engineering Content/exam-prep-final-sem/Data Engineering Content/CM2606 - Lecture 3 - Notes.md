@@ -108,7 +108,7 @@ Spark consists of four main components, each of which present a different functi
 >[!Definition]
 >Spark utilizes a cluster based architecture as to where it manages multiple sub clusters of machines, each of which execute tasks concurrently. Refer to the following diagram to see how the architecture works
 
-![[Pasted image 20250413173159.png\|Pasted image 20250413173159.png]]
+![Pasted image 20250413173159.png](/img/user/pngs/Pasted%20image%2020250413173159.png)
 
 - **Driver Node**:
 	- Here is where the main function of the application is carried out, its the central coordinator for the Spark application

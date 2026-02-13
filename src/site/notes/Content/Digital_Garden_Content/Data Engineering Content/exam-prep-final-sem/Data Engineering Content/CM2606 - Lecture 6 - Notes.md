@@ -85,11 +85,11 @@ The entire point of scaling is to limit ranges in data such that it does not exc
 
 Take the following for example, data before sanitization:
 
-![[Pasted image 20250415184957.png\|Pasted image 20250415184957.png]]
+![Pasted image 20250415184957.png](/img/user/pngs/Pasted%20image%2020250415184957.png)
 
 Data after sanitization:
 
-![[Pasted image 20250415185019.png\|Pasted image 20250415185019.png]]
+![Pasted image 20250415185019.png](/img/user/pngs/Pasted%20image%2020250415185019.png)
 ### Data Validation
 
 >[!Definition]

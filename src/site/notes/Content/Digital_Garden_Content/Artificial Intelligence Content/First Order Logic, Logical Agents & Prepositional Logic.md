@@ -54,7 +54,7 @@ The main components of a knowledge based agent are the following:
 
 In terms of the main features and structure of a knowledge based agent, regard the following image:
 
-![[Pasted image 20250320172351.png\|Pasted image 20250320172351.png]]
+![Pasted image 20250320172351.png](/img/user/pngs/Pasted%20image%2020250320172351.png)
 
 - **Domain Independent Algorithms** - a type of algorithm that does not reply on a single domain or source of knowledge to solve a problem (this is connected to the inference engine as it states that it does not need to rely on a single knowledge base to solve an answer hence making it an optimal connection to an inference engine)
 - **Inference Engine** - components of knowledge based agent that derives new facts with existing knowledge
@@ -80,7 +80,7 @@ In other words, Wumpus world is a game set in a task environment with 16 grids (
 
 The layout of the grid with all the mentioned features may be laid out like so:
 
-![[Pasted image 20250321203200.png\|Pasted image 20250321203200.png]]
+![Pasted image 20250321203200.png](/img/user/pngs/Pasted%20image%2020250321203200.png)
 
 Regarding a **peas** based approach, these are the components to Wumpus world:
 

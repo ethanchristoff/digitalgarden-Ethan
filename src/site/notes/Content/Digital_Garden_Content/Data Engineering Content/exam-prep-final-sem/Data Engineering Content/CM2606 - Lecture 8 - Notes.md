@@ -11,7 +11,7 @@
 
 The simplest form of a pipeline is where data is collected from an origin and then processed/transformed and then loaded into a destination. 
 
-![[Pasted image 20250416190639.png\|Pasted image 20250416190639.png]]
+![Pasted image 20250416190639.png](/img/user/pngs/Pasted%20image%2020250416190639.png)
 
 In some occasions, the collected data would need to be stored in a "staging" area for further processing like so:
 

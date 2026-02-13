@@ -296,7 +296,15 @@ A DAG (Directed Acyclic Graph) is simply the blueprint used to define the workfl
 
 The DAG developed for the coursework is to regard the following layout:
 
-![[Pasted image 20250302173901.png\|Pasted image 20250302173901.png]]
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+
+
+
+
+</div></div>
+
 
 ### **1. Installing Apache Airflow**
 
