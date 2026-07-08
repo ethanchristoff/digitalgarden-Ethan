@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2026-07-08T07:49:46.536+05:30","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2026-07-08T09:06:34.061+05:30","dg-note-properties":{}}
 ---
 
 #DigitalGarden
@@ -29,5 +29,4 @@ You can contact me through the following mediums:
 ### Artificial Intelligence 
 [[Content/Digital_Garden_Content/Artificial Intelligence Content/Artificial Intelligence Content\|Artificial Intelligence Content]] - Link to AI content hub
 
-### My interview prep
-[[Content/Digital_Garden_Content/Coding Concepts/IFS Content\|IFS Content]] - Link to my preparations for an interview at IFS
+### Coding Concepts
