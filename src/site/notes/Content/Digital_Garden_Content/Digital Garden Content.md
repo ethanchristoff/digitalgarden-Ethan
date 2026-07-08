@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2026-01-28T11:24:50.483+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/digital-garden-content/","tags":["gardenEntry"],"updated":"2026-07-08T07:49:46.536+05:30","dg-note-properties":{}}
 ---
 
 #DigitalGarden
@@ -28,3 +28,6 @@ You can contact me through the following mediums:
 [[Content/Digital_Garden_Content/Airflow Astronomer Certification/Airflow Astronomer Certification Content\|Airflow Astronomer Certification Content]] - Link to personal Astronomer Airflow Certification Notes 
 ### Artificial Intelligence 
 [[Content/Digital_Garden_Content/Artificial Intelligence Content/Artificial Intelligence Content\|Artificial Intelligence Content]] - Link to AI content hub
+
+### My interview prep
+[[Content/Digital_Garden_Content/IFS/IFS Content\|IFS Content]] - Link to my preparations for an interview at IFS

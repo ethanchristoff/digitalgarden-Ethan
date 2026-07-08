@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/airflow-astronomer-certification/content/introduction-topics/introduction-to-airflow/","updated":"2026-01-28T11:23:58.443+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/airflow-astronomer-certification/content/introduction-topics/introduction-to-airflow/","updated":"2026-01-28T11:23:58.443+05:30","dg-note-properties":{}}
 ---
 
 #Astronomer #Airflow 

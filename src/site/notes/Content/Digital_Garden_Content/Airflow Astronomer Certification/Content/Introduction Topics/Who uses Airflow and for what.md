@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/airflow-astronomer-certification/content/introduction-topics/who-uses-airflow-and-for-what/","updated":"2026-01-28T12:42:45.970+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/airflow-astronomer-certification/content/introduction-topics/who-uses-airflow-and-for-what/","updated":"2026-01-28T12:42:45.970+05:30","dg-note-properties":{}}
 ---
 
  #Astronomer #Airflow 

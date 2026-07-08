@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content/digital-garden-content/airflow-astronomer-certification/content/introduction-topics/introduction-to-orchestration/","updated":"2026-01-26T15:43:22.641+05:30"}
+{"dg-publish":true,"permalink":"/content/digital-garden-content/airflow-astronomer-certification/content/introduction-topics/introduction-to-orchestration/","updated":"2026-01-26T15:43:22.641+05:30","dg-note-properties":{}}
 ---
 
 #Astronomer #Airflow 
