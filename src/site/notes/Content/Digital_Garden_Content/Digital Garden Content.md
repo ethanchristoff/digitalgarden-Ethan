@@ -30,4 +30,4 @@ You can contact me through the following mediums:
 [[Content/Digital_Garden_Content/Artificial Intelligence Content/Artificial Intelligence Content\|Artificial Intelligence Content]] - Link to AI content hub
 
 ### My interview prep
-[[Content/Digital_Garden_Content/IFS/IFS Content\|IFS Content]] - Link to my preparations for an interview at IFS
+[[Content/Digital_Garden_Content/Coding Concepts/IFS Content\|IFS Content]] - Link to my preparations for an interview at IFS
